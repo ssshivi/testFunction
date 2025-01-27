@@ -16,6 +16,7 @@ namespace AzureFunctionApp.Tests
             // Arrange
             var context = new DefaultHttpContext();
             var request = context.Request;
+            
             var logger = NullLoggerFactory.Instance.CreateLogger("Test");
 
             // Act
